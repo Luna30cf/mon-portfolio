@@ -100,5 +100,6 @@ footer {
 @media (max-width: 600px) {
   header { flex-direction: column; padding: 10px 0; }
   header .logo { position: static; transform: none; margin-bottom: 10px; }
+  header .logo img { height: 80px; width: auto; }
   header .txt { flex-direction: column; }
 }
