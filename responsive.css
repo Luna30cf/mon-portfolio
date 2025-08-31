@@ -37,42 +37,55 @@
 /* ==========================
    Blog / Articles
 ========================== */
+
 @media (max-width: 768px) {
-
-  main article {
-    padding: 0 10px;
+  body {
+    font-size: 16px;
+    padding: 5px;
   }
 
-  main article .fig {
-    display: flex;
-    flex-direction: column !important;
-    align-items: center;
+  main {
+    width: 95%;
+    margin: 2% auto;
   }
 
-  main article .fig figure {
-    width: 100% !important;
-    margin-bottom: 15px;
+  article {
+    padding: 1rem;
   }
 
-  main article .fig figure img {
-    width: 100% !important;
+
+  article img,
+  .fig img,
+  .machines img {
+    max-width: 100%;
     height: auto;
   }
 
-  main article p, main article ul, main article ol {
-    font-size: 1rem;
+  .fig {
+    display: flex;           
+    flex-direction: column;
+    align-items: center;
   }
 
-  main article h2 {
+  .fig figure {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .fig figcaption {
+    text-align: center;
+  }
+
+  article h2 {
     font-size: 1.5rem;
   }
 
-  main article span.date {
-    display: block;
-    text-align: right;
-    font-size: 0.9rem;
+  article p {
+    font-size: 1rem;
+    line-height: 1.6;
   }
 }
+
 
 /* ==========================
    Page Contact
@@ -128,8 +141,12 @@
     font-size: medium;
   }
 
-  main article h2 {
-    font-size: 1.2rem;
+  article h2 {
+    font-size: 1.3rem; 
+  }
+
+  article p {
+    font-size: 0.95rem;
   }
 
   .form-container iframe {
