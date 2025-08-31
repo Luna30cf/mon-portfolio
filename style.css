@@ -85,7 +85,7 @@ main {
 }
 
 footer {
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -97,8 +97,4 @@ footer {
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
-@media (max-width: 600px) {
-  header { flex-direction: column; padding: 10px 0; }
-  header .logo { position: static; transform: none; margin-bottom: 10px; }
-  header .txt { flex-direction: column; }
-}
+
