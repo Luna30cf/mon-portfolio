@@ -16,6 +16,11 @@
     margin-bottom: 10px;
   }
 
+  header .logo img {
+    height: 80px;
+    width: auto;
+  }
+
   nav {
     display: flex;
     flex-wrap: wrap;
