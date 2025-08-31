@@ -10,7 +10,6 @@
   header {
     flex-direction: column !important;
     text-align: center;
-    padding: 10px;
   }
 
   header .logo {
@@ -34,7 +33,6 @@
 
   footer {
     text-align: center;
-    padding: 0.5rem;
   }
 }
 
@@ -88,6 +86,11 @@
     font-size: 1rem;
     line-height: 1.6;
   }
+
+  article:last-of-type {
+    margin-bottom: 2%;
+  }
+
 }
 
 
@@ -105,8 +108,9 @@
   .contact-info,
   .form-container {
     width: 90% !important;
-    margin: 0 auto 20px auto;
-    text-align: center;
+    margin: 1rem auto;
+    text-align: left;
+    font-size: medium;
   }
 
   .contact-info ul {
