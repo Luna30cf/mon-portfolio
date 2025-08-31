@@ -88,7 +88,7 @@
   }
 
   article:last-of-type {
-    margin-bottom: 2%;
+    margin-bottom: 20%;
   }
 
 }
@@ -111,6 +111,11 @@
     margin: 1rem auto;
     text-align: left;
     font-size: medium;
+  }
+
+  .contact-info {
+  text-align: left !important;
+  margin-left: 0 !important;
   }
 
   .contact-info ul {

@@ -1,6 +1,10 @@
-/* style.css */
+html {
+  height: 100%;
+}
+
 body {
     font-family: Arial, sans-serif;
+    min-height: 100%;
     margin: 0;
     padding: 0;
     background: #fdf0d5;
@@ -85,7 +89,7 @@ main {
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
